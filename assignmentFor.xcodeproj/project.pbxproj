@@ -13,6 +13,8 @@
 		48998E6427CE537100729A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48998E6227CE537100729A80 /* Main.storyboard */; };
 		48998E6627CE537300729A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48998E6527CE537300729A80 /* Assets.xcassets */; };
 		48998E6927CE537300729A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48998E6727CE537300729A80 /* LaunchScreen.storyboard */; };
+		48998E7127CF33B500729A80 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48998E7027CF33B500729A80 /* VerifyViewController.swift */; };
+		48998E7327CF50D100729A80 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48998E7227CF50D100729A80 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		48998E6527CE537300729A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48998E6827CE537300729A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48998E6A27CE537300729A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48998E7027CF33B500729A80 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		48998E7227CF50D100729A80 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				48998E6527CE537300729A80 /* Assets.xcassets */,
 				48998E6727CE537300729A80 /* LaunchScreen.storyboard */,
 				48998E6A27CE537300729A80 /* Info.plist */,
+				48998E7027CF33B500729A80 /* VerifyViewController.swift */,
+				48998E7227CF50D100729A80 /* SignUpViewController.swift */,
 			);
 			path = assignmentFor;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48998E6127CE537100729A80 /* ViewController.swift in Sources */,
+				48998E7127CF33B500729A80 /* VerifyViewController.swift in Sources */,
 				48998E5D27CE537100729A80 /* AppDelegate.swift in Sources */,
 				48998E5F27CE537100729A80 /* SceneDelegate.swift in Sources */,
+				48998E7327CF50D100729A80 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
